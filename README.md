@@ -22,7 +22,7 @@ This is tool to make application of android.
     * Emulator  
   * Install  
     1. Download "All Android Studio Package" for Linux.  
-    `~/Downloads/android-studio-ide-***-linux.zip`  
+    `{home}/Downloads/android-studio-ide-***-linux.zip`  
     2. This zip file has been frozen. So give dissolved this where you want to install.    
     Write this in your command line.  
     `unzip android-studio-ide-***-linux.zip`  
@@ -31,4 +31,21 @@ This is tool to make application of android.
     3. Install Android Studio. Write this command.  
     `./android-studio/bin/studio.sh`  
     If you write this command, open window of setup from command line.  
-    
+  * Desktop file  
+  If you leave the default, you must use from command line. You will want to search from dash.  
+    * How to solve this problem  
+    You have to make this file.  
+    `{home}/.local/share/applications/android-studio.desktop`  
+    ```
+    [Desktop Entry]
+    Version=1.0
+    Type=Application
+    Name=android-studio
+    Comment=This is android studio
+    Icon=/android-studio/bin/studio.ico
+    Exec=/android-studio/bin/studio.sh
+    Terminal=false
+    StartupNotify=false
+    Categories=Utility;Application;
+    ```  
+    You will be able to search Android Studio from dash.  
