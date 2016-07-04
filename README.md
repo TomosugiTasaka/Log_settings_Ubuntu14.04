@@ -6,7 +6,7 @@ But I write this log in midstream. So they are probably not right.
 ## Installed
 There are my installed applications.
 * **Android studio**  
-This is tool to make application of android.  
+This is tool to make application of android OS.  
   * Season  
   2015/11/25  
   * Version  
@@ -48,4 +48,13 @@ This is tool to make application of android.
     StartupNotify=false
     Categories=Utility;Application;
     ```  
-    You will be able to search Android Studio from dash.  
+    You will be able to search Android Studio from dash.
+
+* **SmartGit**  
+This is software of git. I think you help using git.  
+  * Season  
+  2016/7/4  
+  * Version  
+ 7.1.3  
+  * Homepage  
+[Git Client SmartGit](http://www.syntevo.com/smartgit/)
