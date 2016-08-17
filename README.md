@@ -76,19 +76,3 @@ This is tool to make application of android OS.
     `sudo add-apt-repository ppa:engunesan/ppa`  
     `sudo apt-get update`  
     `sudo apt-get install smartgit`  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
