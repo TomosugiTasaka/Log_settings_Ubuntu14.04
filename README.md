@@ -51,10 +51,44 @@ This is tool to make application of android OS.
     You will be able to search Android Studio from dash.
 
 * **SmartGit**  
-This is software of git. I think you help using git.  
   * Season  
   2016/7/4  
   * Version  
- 7.1.3  
+  git version 2.7.4  
+  Smart Git version 7.1.3  
   * Homepage  
-[Git Client SmartGit](http://www.syntevo.com/smartgit/)
+[Git Client SmartGit](http://www.syntevo.com/smartgit/)  
+  * Install  
+    1. Open your command line. You should update your package list.  
+    `$ sudo apt-get update`  
+    2. Installing git.  
+    `$ sudo apt-get install git`  
+    3. Initializing of git.  
+    `$ git config --global user.name "{user_name}"`  
+    `$ git config --global user.email "{user_email_address}"`  
+    4. If you use directory of Japanese name.  
+    `$ git config --global core.quotepath false`  
+    5. Installing Java  
+    `$ sudo add-apt-repository ppa:webupd8team/java`  
+    `$ sudo apt-get update`  
+    `$ sudo apt-get install oracle-java8-installer`  
+    6. add repository of SmartGit and install  
+    `sudo add-apt-repository ppa:engunesan/ppa`  
+    `sudo apt-get update`  
+    `sudo apt-get install smartgit`  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
